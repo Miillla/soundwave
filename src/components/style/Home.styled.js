@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const HomeMainSection = styled.section`
   display: flex;
   align-items: stretch;
-  justify-content: space-between;
+  justify-content: space-around;
   flex-grow: 1;
   //   position: reletiv;
 

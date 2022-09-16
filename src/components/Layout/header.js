@@ -1,5 +1,6 @@
 import React from "react";
 import {
+  Conteiner,
   BrandLogo,
   BrandLogoName,
   MainHeader,
@@ -8,23 +9,27 @@ import {
 
 const Header = () => {
   return (
-    <MainHeader>
-      <BrandLogo href="/">
-        <img src="/images/logo.png" />
-        <BrandLogoName>Soundwave</BrandLogoName>
-      </BrandLogo>
+    <>
+      {/* <Conteiner> */}
+      <MainHeader>
+        <BrandLogo href="/">
+          <img src="/images/logo.png" />
+          <BrandLogoName>Soundwave</BrandLogoName>
+        </BrandLogo>
 
-      <MainNav>
-        <ul>
-          <li>
-            <a href="/discover">Discover</a>
-          </li>
-          <li>
-            <a href="/join">Join</a>
-          </li>
-        </ul>
-      </MainNav>
-    </MainHeader>
+        <MainNav>
+          <ul>
+            <li>
+              <a href="/discover">Discover</a>
+            </li>
+            <li>
+              <a href="/join">Join</a>
+            </li>
+          </ul>
+        </MainNav>
+      </MainHeader>
+      {/* </Conteiner> */}
+    </>
   );
 };
 export default Header;

@@ -6,6 +6,7 @@ export const BrandLogo = styled.a`
   font-size: 1.25em;
   color: inherit;
   text-decoration: none;
+  // margin-left: 4rem;
 `;
 
 export const BrandLogoName = styled.div`
@@ -23,6 +24,7 @@ export const MainNav = styled.nav`
     color: inherit;
     text-decoration: none;
     padding: 1rem;
+    // margin-right: 4rem;
   }
   a:hover {
     color: #adadad;
@@ -33,5 +35,6 @@ export const MainHeader = styled.header`
   justify-content: space-between;
   align-items: center;
   height: 140px;
-  width: ;
+  width: 100%;
+  // margin-right: 4rem;
 `;
